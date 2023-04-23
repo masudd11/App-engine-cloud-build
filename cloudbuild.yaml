@@ -19,6 +19,8 @@ steps:
     - 'us-central1'
     - '--port'
     - '8000'
+    - '--platform'
+    - 'managed'
     - '--allow-unauthenticated'
 
 images:
