@@ -24,7 +24,7 @@ images:
 
 substitutions:
   _PROJECT: kubernetes-gcp-383911
-  _REPO_NAME: github_masudd11_deploy_cloud_run
+  _REPO_NAME: github_masudd11_deploy-cloud-run
 
 options:
     # substitutions_option: 'ALLOW_LOOSE'
