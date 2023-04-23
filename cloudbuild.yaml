@@ -23,7 +23,7 @@ images:
   - 'gcr.io/$PROJECT_ID/runpyapp/$SHORT_SHA'
 
 substitutions:
-  -PROJECT: kubernetes-gcp-383911
+  _PROJECT: kubernetes-gcp-383911
   _REPO_NAME: github_masudd11_deploy_cloud_run
 
 options:
