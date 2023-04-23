@@ -19,6 +19,8 @@ steps:
     - 'us-central1'
     - '--platform'
     - 'managed'
+    - '--port'
+    - '8000'
 
 images:
   - 'gcr.io/${_PROJECT}/runpyapp/$SHORT_SHA'
