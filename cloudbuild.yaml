@@ -19,9 +19,7 @@ steps:
     - 'us-central1'
     - '--port'
     - '8000'
-    - '--platform'
-    - 'managed'
-    - '--allow-unauthenticated'
+    - '--[no-]allow-unauthenticated'
 
 images:
   - 'gcr.io/${_PROJECT}/runpyapp:$SHORT_SHA'
