@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # [START django_app]
-runtime: python3.7
+runtime: python27
 api_version: 1
 threadsafe: yes
 
