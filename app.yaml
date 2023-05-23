@@ -13,9 +13,7 @@
 # limitations under the License.
 
 # [START django_app]
-runtime: python27
-api_version: 1
-threadsafe: yes
+runtime: python39
 
 handlers:
 - url: /static
